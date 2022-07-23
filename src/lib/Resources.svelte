@@ -5,6 +5,13 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "Draft Picks Valuation Spreadsheet",
+            url: "https://docs.google.com/spreadsheets/d/17qYwVL47X2jqmNOITikQt4bMgb3_gCNCFAhsIZslI4Q/edit?usp=sharing",
+            icon: "insights",
+            premium: false,
+            separator: true
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",

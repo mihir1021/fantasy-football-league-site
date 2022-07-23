@@ -263,12 +263,12 @@
             </Group>
         </div>
 
-        <p class="bio">{@html viewManager.bio}</p>
+        <center><p class="bio">{@html viewManager.bio}</p></center>
 
         {#if viewManager.philosophy}
             <!-- philosophy is an optional field -->
             <h3>Team Philosophy</h3>
-            <p class="philosophy">{@html viewManager.philosophy}</p>
+            <center><p class="philosophy">{@html viewManager.philosophy}</p></center>
         {/if}
     </div>
 
